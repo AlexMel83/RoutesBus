@@ -31,11 +31,13 @@ const COORDINATES: Record<string, { lat: number, lng: number }> = {
     'центр': { lat: 49.7556, lng: 27.2208 },
     'вокзал і': { lat: 49.7629, lng: 27.2115 },
     'вокзал іі': { lat: 49.7685, lng: 27.2340 },
-    'залізничний вокзал': { lat: 49.7685, lng: 27.2340 },
+    'вокзал ii': { lat: 49.7685, lng: 27.2340 },
+    'вокзал i': { lat: 49.7629, lng: 27.2115 },
     'лікарня': { lat: 49.7420, lng: 27.2140 },
     'ринок': { lat: 49.7525, lng: 27.2245 },
-    'болгарський': { lat: 49.7630, lng: 27.2280 },
     'болгарське містечко': { lat: 49.7630, lng: 27.2280 },
+    'болгарський': { lat: 49.7630, lng: 27.2280 },
+    'болг. містечко': { lat: 49.7630, lng: 27.2280 },
     'новики': { lat: 49.7750, lng: 27.2000 },
     'замок острозьких': { lat: 49.7585, lng: 27.2300 },
     'атп': { lat: 49.7600, lng: 27.2000 },
@@ -43,12 +45,11 @@ const COORDINATES: Record<string, { lat: number, lng: number }> = {
     'магазин №1': { lat: 49.7650, lng: 27.2200 },
     "п'ятачок": { lat: 49.7480, lng: 27.2200 },
     'с. пашківці': { lat: 49.7400, lng: 27.1800 },
-    'с/т': { lat: 49.7700, lng: 27.2500 },
+    'с.пашківці': { lat: 49.7400, lng: 27.1800 },
     'с/г техніка': { lat: 49.7700, lng: 27.2500 },
-    'відг. радгосп': { lat: 49.7800, lng: 27.2400 },
     'відгодівельний радгосп': { lat: 49.7800, lng: 27.2400 },
     'камянка': { lat: 49.7300, lng: 27.2100 },
-    'старокостянтинів ас': { lat: 49.7629, lng: 27.2115 },
+    'с.кам’янка': { lat: 49.7300, lng: 27.2100 },
     'кінотеатр': { lat: 49.7560, lng: 27.2150 },
     'олійно- екстракційних завод': { lat: 49.7400, lng: 27.2500 },
     'олійно-екстракційний завод': { lat: 49.7400, lng: 27.2500 },
@@ -143,15 +144,18 @@ export function getArrivalsForStop(stopName: string): Arrival[] {
             if (route.schedules) {
                 route.schedules.forEach((schedule: any) => {
                     if (schedule.days && (schedule.days as any)[todayKey]) {
-                        const [h, m] = schedule.time.split(':').map(Number);
+                        const parts = (schedule.time as string).split(':').map(Number);
+                        const h = parts[0] || 0;
+                        const m = parts[1] || 0;
                         const minutesFromMidnight = h * 60 + m;
                         const colors = ROUTE_COLORS as Record<string, string>;
+
                         arrivals.push({
                             routeId: routeId,
-                            routeName: route.route_name,
-                            color: colors[routeId] || colors['default'],
+                            routeName: route.route_name as string,
+                            color: (colors[routeId] || colors['default']) as string,
                             minutes: minutesFromMidnight,
-                            time: schedule.time,
+                            time: schedule.time as string,
                             destination: 'See Route'
                         });
                     }
