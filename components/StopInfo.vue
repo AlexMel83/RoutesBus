@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { computed, ref, watch } from 'vue';
-import { type Stop, getArrivalsForStop } from '~/utils/mockData';
+import { computed, ref, watch, onMounted } from 'vue';
+import { type Stop, getArrivalsForStop, getRoutesForStop } from '~/utils/mockData';
 
 const props = defineProps<{
   stop: Stop | null;
@@ -9,80 +9,145 @@ const props = defineProps<{
 
 const emit = defineEmits(['close']);
 
-const arrivals = ref<any[]>([]);
+// 1. Reactive State
+const selectedDateTime = ref('');
+const availableRoutes = ref<string[]>([]);
+const selectedRoutes = ref<string[]>([]);
 const loading = ref(false);
 
-const refreshArrivals = () => {
-  if (props.stop) {
-    loading.value = true;
-    // Simulate network delay
-    setTimeout(() => {
-      if (props.stop) {
-        arrivals.value = getArrivalsForStop(props.stop.name);
-      }
-      loading.value = false;
-    }, 500);
-  }
+const uaDays = ['Нд', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'];
+const dayName = computed(() => {
+    if (!selectedDateTime.value) return '';
+    const date = new Date(selectedDateTime.value);
+    return uaDays[date.getDay()];
+});
+
+// Initialize default date/time on mount and when stop changes
+const resetToCurrent = () => {
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = String(now.getMonth() + 1).padStart(2, '0');
+    const day = String(now.getDate()).padStart(2, '0');
+    const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+    selectedDateTime.value = `${year}-${month}-${day}T${hours}:${minutes}`;
 };
 
-const formatTimeLeft = (minutes: number) => {
-  if (minutes < 60) {
-    return `in ${minutes} min`;
-  }
-  const hours = Math.floor(minutes / 60);
-  const mins = minutes % 60;
-  return `in ${hours}h ${mins}m`;
-};
+onMounted(() => {
+    resetToCurrent();
+});
 
 watch(() => props.stop, (newStop) => {
   if (newStop) {
-    refreshArrivals();
+    availableRoutes.value = getRoutesForStop(newStop.name);
+    selectedRoutes.value = [...availableRoutes.value];
+    resetToCurrent();
   }
+});
+
+// 2. Computed Data
+const rawArrivals = computed(() => {
+    if (!props.stop) return [];
+    const date = new Date(selectedDateTime.value);
+    return getArrivalsForStop(props.stop.name, date);
+});
+
+const filteredArrivals = computed(() => {
+    return rawArrivals.value.filter(a => selectedRoutes.value.includes(a.routeId));
+});
+
+const highlightedArrivalIndices = computed(() => {
+    if (filteredArrivals.value.length === 0) return [];
+    
+    const selDate = new Date(selectedDateTime.value);
+    const selMinutes = selDate.getHours() * 60 + selDate.getMinutes();
+    
+    const exactMatches = filteredArrivals.value
+        .map((a, i) => a.minutes === selMinutes ? i : -1)
+        .filter(i => i !== -1);
+    
+    if (exactMatches.length > 0) return exactMatches;
+
+    let beforeIdx = -1;
+    let afterIdx = -1;
+    
+    for (let i = 0; i < filteredArrivals.value.length; i++) {
+        const item = filteredArrivals.value[i];
+        if (item) {
+            if (item.minutes < selMinutes) {
+                beforeIdx = i;
+            } else if (item.minutes > selMinutes) {
+                afterIdx = i;
+                break;
+            }
+        }
+    }
+    
+    const result: number[] = [];
+    if (beforeIdx !== -1) result.push(beforeIdx);
+    if (afterIdx !== -1) result.push(afterIdx);
+    return result;
 });
 </script>
 
 <template>
   <div class="stop-panel-container" :class="{ 'open': isOpen }">
-    <div class="stop-panel glass-panel">
-      <div class="panel-handle" @click="emit('close')">
-        <div class="handle-bar"></div>
-      </div>
-      
-      <div class="panel-content" v-if="stop">
+    <div class="stop-panel">
+      <!-- Fixed Header -->
+      <div class="fixed-header">
         <div class="header">
-          <h2>{{ stop.name }}</h2>
-          <p class="description">{{ stop.description }}</p>
-          <button class="close-btn-desktop" @click="emit('close')">×</button>
+          <h2 v-if="stop">{{ stop.name }}</h2>
+          <button class="close-btn" @click="emit('close')">×</button>
+        </div>
+      </div>
+
+      <div class="scrollable-content" v-if="stop">
+        <div class="controls-section">
+            <div class="control-group">
+                <label for="datetime">Час ({{ dayName }})</label>
+                <input 
+                    type="datetime-local" 
+                    id="datetime" 
+                    v-model="selectedDateTime"
+                    class="custom-input"
+                    lang="uk-UA"
+                    step="60"
+                />
+            </div>
+
+            <div class="control-group">
+                <label>Маршрути</label>
+                <div class="route-checkboxes">
+                    <label v-for="rid in availableRoutes" :key="rid" class="pill-checkbox">
+                        <input type="checkbox" :value="rid" v-model="selectedRoutes" />
+                        <span class="pill-text">{{ rid }}</span>
+                    </label>
+                </div>
+            </div>
         </div>
 
         <div class="arrivals-list">
-          <h3>Upcoming Arrivals</h3>
           <div v-if="loading" class="loading">
             <div class="spinner"></div>
-            <span>Updating real-time data...</span>
           </div>
-          <div v-else-if="arrivals.length > 0" class="arrival-items-list">
+          <div v-else-if="filteredArrivals.length > 0" class="arrival-items-list">
             <div 
-              v-for="(arrival, index) in arrivals" 
+              v-for="(arrival, index) in filteredArrivals" 
               :key="index"
               class="arrival-row"
+              :class="{ 'highlighted': highlightedArrivalIndices.includes(index) }"
             >
-              <div class="time-group">
-                <span class="arrival-time">{{ arrival.time }}</span>
-                <!-- <span class="time-left">{{ formatTimeLeft(arrival.minutes) }}</span> -->
+              <div class="arrival-time">{{ arrival.time }}</div>
+              <div class="route-badge-container" :style="{ backgroundColor: arrival.color }">
+                <span class="route-num">{{ arrival.routeId }}</span>
               </div>
-              <div class="route-group">
-                <div class="route-badge" :style="{ backgroundColor: arrival.color }">
-                  {{ arrival.routeId }}
-                </div>
-                <span class="route-text" :title="arrival.routeName">
-                  {{ arrival.routeName.replace(/"/g, '') }}
-                </span>
+              <div class="route-text" :title="arrival.routeName">
+                {{ arrival.routeName.replace(/"/g, '') }}
               </div>
             </div>
           </div>
           <div v-else class="empty-state">
-            No buses scheduled for today.
+            Рейсів не знайдено
           </div>
         </div>
       </div>
@@ -99,8 +164,8 @@ watch(() => props.stop, (newStop) => {
   z-index: 2000;
   transform: translateY(110%);
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-  padding: 20px;
-  pointer-events: none; /* Let clicks pass through container area not covered by panel */
+  padding: 10px;
+  pointer-events: none;
   display: flex;
   justify-content: center;
 }
@@ -111,61 +176,177 @@ watch(() => props.stop, (newStop) => {
 
 .stop-panel {
   width: 100%;
-  max-width: 500px;
-  background: var(--surface-glass);
+  max-width: 440px;
+  background-color: #0f172a !important; /* Force dark background */
   pointer-events: auto;
-  padding: 20px;
-  border-bottom-left-radius: 0; /* Looks attached to bottom on mobile? Actually floating is better */
-  /* Let's keep it floating for premium feel */
-  max-height: 50vh;
-  overflow-y: auto;
+  border-radius: 12px;
+  max-height: 75vh;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  color: #ffffff !important; /* Force white text */
 }
 
-/* Mobile Handle */
-.panel-handle {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 15px;
-  cursor: pointer;
-}
-
-.handle-bar {
-  width: 40px;
-  height: 4px;
-  background: var(--border);
-  border-radius: 2px;
+.fixed-header {
+  padding: 10px 14px;
+  background-color: #1e293b !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 10;
 }
 
 .header {
-  position: relative;
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header h2 {
   margin: 0;
-  font-size: 1.5rem;
-  color: var(--text-main);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
-.description {
-  margin: 5px 0 0;
-  color: var(--text-secondary);
-  font-size: 0.9rem;
-}
-
-.close-btn-desktop {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: none;
+.close-btn {
+  background: rgba(255, 255, 255, 0.1);
   border: none;
-  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
   cursor: pointer;
-  color: var(--text-secondary);
-  display: none; /* Hidden on mobile usually, handle usage implies swipe/tap */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollable-content {
+  padding: 10px;
+  overflow-y: auto;
+  flex: 1;
+  background-color: #0f172a !important;
+}
+
+.scrollable-content::-webkit-scrollbar { width: 4px; }
+.scrollable-content::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+.controls-section {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.control-group label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    display: block;
+}
+
+.custom-input {
+    background: rgba(0, 0, 0, 0.5) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: #ffffff !important;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    width: 100%;
+    outline: none;
+    color-scheme: dark;
+}
+
+.route-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.pill-checkbox input { display: none; }
+.pill-checkbox { cursor: pointer; }
+
+.pill-text {
+    padding: 4px 10px;
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.2s;
+}
+
+.pill-checkbox input:checked + .pill-text {
+    background: var(--primary);
+    color: #ffffff;
+    border-color: var(--primary);
+}
+
+.arrival-row {
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  margin-bottom: 4px;
+  gap: 12px;
+  border: 1px solid transparent;
+}
+
+.arrival-row.highlighted {
+  background: rgba(59, 130, 246, 0.25);
+  border-color: var(--primary);
+}
+
+.arrival-time {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff !important;
+  min-width: 45px;
+}
+
+.route-badge-container {
+  transform: skewX(-15deg);
+  padding: 2px 10px;
+  min-width: 34px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.route-num {
+  display: block;
+  transform: skewX(15deg);
+  font-weight: 800;
+  color: #fff;
+  font-size: 0.85rem;
+}
+
+.route-text {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.8) !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.85rem;
 }
 
 @media (min-width: 768px) {
@@ -173,109 +354,23 @@ watch(() => props.stop, (newStop) => {
     left: 20px;
     bottom: 20px;
     right: auto;
-    width: 400px;
+    width: 380px;
     transform: translateX(-150%);
   }
-  
   .stop-panel-container.open {
     transform: translateX(0);
   }
-  
-  .close-btn-desktop {
-    display: block;
-  }
-  
-  .panel-handle {
-    display: none;
-  }
-}
-
-.arrival-items-list {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.arrival-row {
-  display: flex;
-  align-items: center;
-  padding: 10px 0;
-  border-bottom: 1px solid var(--border);
-}
-.arrival-row:last-child {
-  border-bottom: none;
-}
-
-.time-group {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  min-width: 80px;
-  margin-right: 15px;
-}
-
-.arrival-time {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--text-primary);
-  line-height: 1;
-}
-
-.time-left {
-  font-size: 0.8rem;
-  color: var(--primary); /* Keep primary color for urgency */
-  font-weight: 500;
-  margin-top: 2px;
-  background: none;
-  padding: 0;
-}
-
-.route-group {
-  display: flex;
-  align-items: center;
-  flex: 1;
-  overflow: hidden;
-}
-
-.route-badge {
-  color: white;
-  font-weight: 700;
-  font-size: 0.9rem;
-  padding: 4px 8px;
-  border-radius: 6px;
-  margin-right: 10px;
-  min-width: 30px;
-  text-align: center;
-  flex-shrink: 0;
-}
-
-.route-text {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.loading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  color: var(--text-secondary);
 }
 
 .spinner {
-  width: 24px;
-  height: 24px;
-  border: 3px solid var(--border);
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(255,255,255,0.1);
   border-top-color: var(--primary);
   border-radius: 50%;
   animation: spin 1s linear infinite;
-  margin-bottom: 10px;
+  margin: 10px auto;
 }
 
-@keyframes spin {
-  to { transform: rotate(360deg); }
-}
+@keyframes spin { to { transform: rotate(360deg); } }
 </style>

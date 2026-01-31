@@ -124,11 +124,26 @@ const processedStopsMap = new Map<string, Stop>();
 export const ROUTES: Route[] = [];
 export const STOPS = Array.from(processedStopsMap.values());
 
-// 3. Daily Schedule Logic (Full Day)
-export function getArrivalsForStop(stopName: string): Arrival[] {
-    const now = new Date();
+// 3. Dynamic Schedule Logic
+export function getRoutesForStop(stopName: string): string[] {
+    const stopList = schedulesData as any[];
+    const normalizedSearchName = normalize(stopName);
+    const targetStop = stopList.find(s => normalize(s.stop_name) === normalizedSearchName);
+
+    if (!targetStop || !targetStop.routes) return [];
+
+    const routeIds = new Set<string>();
+    targetStop.routes.forEach((route: any) => {
+        const match = route.route_name.match(/№\s*(\d+)/);
+        if (match) routeIds.add(match[1]);
+    });
+
+    return Array.from(routeIds).sort((a, b) => Number(a) - Number(b));
+}
+
+export function getArrivalsForStop(stopName: string, date: Date = new Date()): Arrival[] {
     const daysMap = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
-    const todayKey = daysMap[now.getDay()];
+    const todayKey = daysMap[date.getDay()] as string;
 
     const arrivals: Arrival[] = [];
 
@@ -137,10 +152,6 @@ export function getArrivalsForStop(stopName: string): Arrival[] {
     const normalizedSearchName = normalize(stopName);
     const targetStop = stopList.find(s => normalize(s.stop_name) === normalizedSearchName);
 
-    if (!targetStop) {
-        console.warn(`Target stop not found in schedule data: ${stopName} (normalized: ${normalizedSearchName})`);
-    }
-
     if (targetStop && targetStop.routes) {
         targetStop.routes.forEach((route: any) => {
             const match = route.route_name.match(/№\s*(\d+)/);
@@ -148,7 +159,8 @@ export function getArrivalsForStop(stopName: string): Arrival[] {
 
             if (route.schedules) {
                 route.schedules.forEach((schedule: any) => {
-                    if (schedule.days && (schedule.days as any)[todayKey]) {
+                    const days = (schedule.days || {}) as Record<string, any>;
+                    if (days[todayKey]) {
                         const parts = (schedule.time as string).split(':').map(Number);
                         const h = parts[0] || 0;
                         const m = parts[1] || 0;
@@ -158,7 +170,7 @@ export function getArrivalsForStop(stopName: string): Arrival[] {
                         arrivals.push({
                             routeId: routeId,
                             routeName: route.route_name as string,
-                            color: (colors[routeId] || colors['default']) as string,
+                            color: ((colors as any)[routeId] || colors['default']) as string,
                             minutes: minutesFromMidnight,
                             time: schedule.time as string,
                             destination: 'See Route'
