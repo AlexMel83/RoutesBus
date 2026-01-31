@@ -1,0 +1,7590 @@
+[
+  {
+    "stop_name": "Вокзал І",
+    "routes": [
+      {
+        "route_name": "№ 1 \"Вокзал І - Лікарня - Новики\"",
+        "schedules": [
+          {
+            "time": "7:06",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "7:27",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:37",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:59",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:09",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:31",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:42",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:03",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:13",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:35",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:46",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:07",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:17",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:39",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:50",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Болгарське містечко",
+    "routes": [
+      {
+        "route_name": "№ 1 \"Вокзал І - Лікарня - Новики\"",
+        "schedules": [
+          {
+            "time": "7:13",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "7:34",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:44",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:06",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:16",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:38",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:49",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:10",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:20",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:42",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:53",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:14",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:24",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:46",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:57",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 4 \"с. Пашківці - Лікарня - Новики\"",
+        "schedules": [
+          {
+            "time": "7:50",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:30",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:22",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:02",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:54",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:34",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:26",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:06",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:58",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:38",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:30",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:10",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:02",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:42",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 5 \"КПУ - Вокзал ІІ\"",
+        "schedules": [
+          {
+            "time": "6:06",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "6:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "7:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "13:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 8 \"с. Григорівка-Олійно-екстракційний завод- Польовий\"",
+        "schedules": [
+          {
+            "time": "8:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:52",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:54",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 3 \"с. Пашківці - Сільгосптехніка\"",
+        "schedules": [
+          {
+            "time": "6:52",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "7:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "7:18",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "7:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "7:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:22",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:50",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:12",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:26",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:34",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:22",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:44",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:06",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:54",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:32",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:38",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:12",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:26",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:46",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:10",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:32",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:44",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:58",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:42",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:04",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:30",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:52",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:14",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "18:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "18:46",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "19:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 5-A \"КПУ - Вокзал ІІ\"",
+        "schedules": [
+          {
+            "time": "7:04",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:44",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:44",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:04",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "16:44",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:04",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 7 \"с. Кам'янка - Відгодівельний радгосп\"",
+        "schedules": [
+          {
+            "time": "6:34",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:06",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:38",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:10",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:42",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:14",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:46",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:18",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:50",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 10 \"Болгарське містечко - Заслуч - Ринок\"",
+        "schedules": [
+          {
+            "time": "6:34",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "6:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "7:30",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "7:32",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:26",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:22",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:18",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:14",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:10",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:12",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "13:34",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "13:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:32",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "16:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Новики",
+    "routes": [
+      {
+        "route_name": "№ 1 \"Вокзал І - Лікарня - Новики\"",
+        "schedules": [
+          {
+            "time": "7:43",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:04",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:14",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:46",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:19",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:50",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:12",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:23",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:44",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:54",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "18:27",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 4 \"с. Пашківці - Лікарня - Новики\"",
+        "schedules": [
+          {
+            "time": "7:28",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:20",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:00",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:52",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:32",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:24",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:04",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:56",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:36",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:28",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:08",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:00",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:40",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:32",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "18:12",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Центр",
+    "routes": [
+      {
+        "route_name": "№ 1 \"Вокзал І - Лікарня - Новики\"",
+        "schedules": [
+          {
+            "time": "7:59",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:30",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:52",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:02",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:35",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:06",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:39",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:10",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": true,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:32",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 3 \"с. Пашківці - Сільгосптехніка\"",
+        "schedules": [
+          {
+            "time": "6:54",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "7:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "7:38",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "7:50",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:04",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:26",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:42",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:10",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:22",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:58",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:14",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:42",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:54",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:44",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:52",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:14",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:26",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:18",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:46",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:58",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:12",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:34",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:50",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:18",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:44",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:04",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:22",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:52",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "18:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "18:22",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "18:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 4 \"с. Пашківці - Лікарня - Новики\"",
+        "schedules": [
+          {
+            "time": "7:44",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:36",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:16",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:08",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:48",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:40",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:20",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:12",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:52",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:44",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:24",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:16",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:56",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:48",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "18:28",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 5 \"КПУ - Вокзал ІІ\"",
+        "schedules": [
+          {
+            "time": "7:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "7:42",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:30",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:50",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:22",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:30",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:50",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:22",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:10",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:42",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:30",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "16:50",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:22",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:10",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 5-A \"КПУ - Вокзал ІІ\"",
+        "schedules": [
+          {
+            "time": "7:58",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:18",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:38",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:18",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "13:38",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:58",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "16:18",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:38",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 7 \"с. Кам'янка - Відгодівельний радгосп\"",
+        "schedules": [
+          {
+            "time": "7:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:52",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "13:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "16:32",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:04",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 8 \"с. Григорівка-Олійно-екстракційний завод- Польовий\"",
+        "schedules": [
+          {
+            "time": "7:30",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:32",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:06",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:42",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 10 \"Болгарське містечко - Заслуч - Ринок\"",
+        "schedules": [
+          {
+            "time": "7:14",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:10",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:06",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:58",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:54",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:50",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:14",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:10",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "16:06",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:58",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:54",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "с.Пашківці",
+    "routes": [
+      {
+        "route_name": "№ 3 \"с. Пашківці - Сільгосптехніка\"",
+        "schedules": [
+          {
+            "time": "6:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "6:50",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "7:06",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "7:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "7:44",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "7:50",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:10",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:38",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:14",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:22",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:44",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:10",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:32",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:54",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:42",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:04",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:26",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:14",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:34",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:50",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:58",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:32",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:46",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:30",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:52",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:04",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:18",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:50",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "18:34",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "18:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 4 \"с. Пашківці - Лікарня - Новики\"",
+        "schedules": [
+          {
+            "time": "7:38",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:18",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:10",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:50",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:42",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:22",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:14",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:54",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:46",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:26",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:18",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:58",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:50",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:30",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": false,
+              "fri": false,
+              "sat": true,
+              "sun": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "С/г техніка",
+    "routes": [
+      {
+        "route_name": "№ 3 \"с. Пашківці - Сільгосптехніка\"",
+        "schedules": [
+          {
+            "time": "6:42",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "7:04",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "7:26",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "7:38",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "7:52",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:14",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:30",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:58",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:10",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:46",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:30",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:42",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:32",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:14",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:50",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:06",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:12",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:34",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:46",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:22",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:38",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:44",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:06",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:32",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:52",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:10",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:04",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "18:10",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "18:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "КПУ",
+    "routes": [
+      {
+        "route_name": "№ 5 \"КПУ - Вокзал ІІ\"",
+        "schedules": [
+          {
+            "time": "5:55",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "6:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "7:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "9:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "12:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "13:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 5-A \"КПУ - Вокзал ІІ\"",
+        "schedules": [
+          {
+            "time": "6:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "13:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "16:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Вокзал ІІ",
+    "routes": [
+      {
+        "route_name": "№ 5 \"КПУ - Вокзал ІІ\"",
+        "schedules": [
+          {
+            "time": "6:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "7:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "13:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "15:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "16:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          },
+          {
+            "time": "18:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "19:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": true
+            }
+          }
+        ]
+      },
+      {
+        "route_name": "№ 5-A \"КПУ - Вокзал ІІ\"",
+        "schedules": [
+          {
+            "time": "7:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "13:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "с.Кам'янка",
+    "routes": [
+      {
+        "route_name": "№ 7 \"с. Кам'янка - Відгодівельний радгосп\"",
+        "schedules": [
+          {
+            "time": "6:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "7:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:32",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:04",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Відгодівельний радгосп",
+    "routes": [
+      {
+        "route_name": "№ 7 \"с. Кам'янка - Відгодівельний радгосп\"",
+        "schedules": [
+          {
+            "time": "7:04",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "13:12",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:44",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "16:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Олійно- екстракційний завод",
+    "routes": [
+      {
+        "route_name": "№ 8 \"с. Григорівка-Олійно-екстракційний завод- Польовий\"",
+        "schedules": [
+          {
+            "time": "11:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:12",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "17:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "3 Польовий",
+    "routes": [
+      {
+        "route_name": "№ 8 \"с. Григорівка-Олійно-екстракційний завод- Польовий\"",
+        "schedules": [
+          {
+            "time": "7:18",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "8:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "10:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "11:54",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "13:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "14:56",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "16:30",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          },
+          {
+            "time": "18:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": true,
+              "sun": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Кінотеатр",
+    "routes": [
+      {
+        "route_name": "№ 10 \"Болгарське містечко - Заслуч - Ринок\"",
+        "schedules": [
+          {
+            "time": "6:42",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "6:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "7:38",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "7:44",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:34",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:30",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:26",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:32",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:22",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:18",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "13:42",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "13:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:44",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "16:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:32",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "26 Б.Комісарів",
+    "routes": [
+      {
+        "route_name": "№ 10 \"Болгарське містечко - Заслуч - Ринок\"",
+        "schedules": [
+          {
+            "time": "6:52",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "7:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:44",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:32",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:28",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "13:52",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:48",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:44",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "16:40",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:36",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:32",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "РАЙШРБУ",
+    "routes": [
+      {
+        "route_name": "№ 10 \"Болгарське містечко - Заслуч - Ринок\"",
+        "schedules": [
+          {
+            "time": "6:58",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "7:54",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:50",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:46",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:42",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:38",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:34",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "13:58",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:54",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:50",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "16:46",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:42",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:38",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "вул. Толстого",
+    "routes": [
+      {
+        "route_name": "№ 10 \"Болгарське містечко - Заслуч - Ринок\"",
+        "schedules": [
+          {
+            "time": "7:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "7:58",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:54",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:50",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:46",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:42",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:38",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:58",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:54",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "16:50",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:46",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:42",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Дружба",
+    "routes": [
+      {
+        "route_name": "№ 10 \"Болгарське містечко - Заслуч - Ринок\"",
+        "schedules": [
+          {
+            "time": "7:18",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:14",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:10",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:06",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:58",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:54",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:18",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:14",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "16:10",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:06",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:58",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": false,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Анастасія",
+    "routes": [
+      {
+        "route_name": "№ 10 \"Болгарське містечко - Заслуч - Ринок\"",
+        "schedules": [
+          {
+            "time": "7:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:12",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:04",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "13:00",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:24",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:20",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "16:16",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:12",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:08",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "19:02",
+            "days": {
+              "mon": true,
+              "tue": true,
+              "wed": true,
+              "thu": true,
+              "fri": true,
+              "sat": false,
+              "sun": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "stop_name": "Ринок",
+    "routes": [
+      {
+        "route_name": "№ 10 \"Болгарське містечко - Заслуч - Ринок\"",
+        "schedules": [
+          {
+            "time": "6:46",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "7:10",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "7:42",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:06",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "8:38",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:02",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:34",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "9:58",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:30",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "10:54",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:26",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "11:50",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:22",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "12:46",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "13:46",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "14:10",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "15:06",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "16:02",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "16:58",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "17:54",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          },
+          {
+            "time": "18:50",
+            "days": {
+              "mon": false,
+              "tue": false,
+              "wed": false,
+              "thu": true,
+              "fri": false,
+              "sat": false,
+              "sun": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
