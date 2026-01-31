@@ -82,7 +82,7 @@ watch(() => props.stop, (newStop) => {
             </div>
           </div>
           <div v-else class="empty-state">
-            No buses scheduled for the next hour.
+            No buses scheduled for today.
           </div>
         </div>
       </div>

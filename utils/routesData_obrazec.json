@@ -1666,8 +1666,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1678,8 +1678,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1690,8 +1690,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1702,8 +1702,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1714,8 +1714,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1726,8 +1726,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1738,8 +1738,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1750,8 +1750,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1762,8 +1762,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1774,8 +1774,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1786,8 +1786,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1798,8 +1798,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1810,8 +1810,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1822,8 +1822,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1834,8 +1834,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1846,8 +1846,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1858,8 +1858,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1870,8 +1870,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1882,8 +1882,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1894,8 +1894,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -1906,8 +1906,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           }
         ]
@@ -3718,8 +3718,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -3730,8 +3730,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -3742,8 +3742,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -3754,8 +3754,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -3766,8 +3766,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -3778,8 +3778,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -3790,8 +3790,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -3802,8 +3802,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -3814,8 +3814,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -3826,8 +3826,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -3838,8 +3838,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -3850,8 +3850,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -3862,8 +3862,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           }
         ]
@@ -6247,8 +6247,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6259,8 +6259,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6271,8 +6271,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6283,8 +6283,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6295,8 +6295,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6307,8 +6307,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6319,8 +6319,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6331,8 +6331,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6343,8 +6343,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6355,8 +6355,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6367,8 +6367,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6379,8 +6379,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6391,8 +6391,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6403,8 +6403,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6415,8 +6415,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6427,8 +6427,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6439,8 +6439,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6451,8 +6451,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6463,8 +6463,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6475,8 +6475,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6487,8 +6487,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           }
         ]
@@ -6509,8 +6509,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6521,8 +6521,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6533,8 +6533,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6545,8 +6545,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6557,8 +6557,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6569,8 +6569,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6581,8 +6581,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6593,8 +6593,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6605,8 +6605,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6617,8 +6617,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6629,8 +6629,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6641,8 +6641,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6653,8 +6653,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           }
         ]
@@ -6675,8 +6675,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6687,8 +6687,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6699,8 +6699,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6711,8 +6711,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6723,8 +6723,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6735,8 +6735,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6747,8 +6747,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6759,8 +6759,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6771,8 +6771,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6783,8 +6783,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6795,8 +6795,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6807,8 +6807,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6819,8 +6819,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           }
         ]
@@ -6841,8 +6841,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6853,8 +6853,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6865,8 +6865,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6877,8 +6877,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6889,8 +6889,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6901,8 +6901,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6913,8 +6913,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6925,8 +6925,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6937,8 +6937,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6949,8 +6949,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6961,8 +6961,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6973,8 +6973,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -6985,8 +6985,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           }
         ]
@@ -7007,8 +7007,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7019,8 +7019,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7031,8 +7031,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7043,8 +7043,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7055,8 +7055,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7067,8 +7067,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7079,8 +7079,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7091,8 +7091,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7103,8 +7103,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7115,8 +7115,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7127,8 +7127,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7139,8 +7139,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7151,8 +7151,8 @@
               "wed": true,
               "thu": false,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           }
         ]
@@ -7173,8 +7173,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7185,8 +7185,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7197,8 +7197,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7209,8 +7209,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7221,8 +7221,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7233,8 +7233,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7245,8 +7245,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7257,8 +7257,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7269,8 +7269,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7281,8 +7281,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7293,8 +7293,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7305,8 +7305,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7317,8 +7317,8 @@
               "wed": true,
               "thu": true,
               "fri": true,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           }
         ]
@@ -7339,8 +7339,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7351,8 +7351,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7363,8 +7363,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7375,8 +7375,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7387,8 +7387,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7399,8 +7399,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7411,8 +7411,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7423,8 +7423,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7435,8 +7435,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7447,8 +7447,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7459,8 +7459,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7471,8 +7471,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7483,8 +7483,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7495,8 +7495,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7507,8 +7507,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7519,8 +7519,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7531,8 +7531,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7543,8 +7543,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7555,8 +7555,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7567,8 +7567,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           },
           {
@@ -7579,8 +7579,8 @@
               "wed": false,
               "thu": true,
               "fri": false,
-              "sat": false,
-              "sun": false
+              "sat": true,
+              "sun": true
             }
           }
         ]

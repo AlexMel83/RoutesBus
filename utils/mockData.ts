@@ -132,9 +132,14 @@ export function getArrivalsForStop(stopName: string): Arrival[] {
 
     const arrivals: Arrival[] = [];
 
-    // Find the stop in the dataset
+    // Find the stop in the dataset using normalization for robustness
     const stopList = schedulesData as any[];
-    const targetStop = stopList.find(s => s.stop_name === stopName);
+    const normalizedSearchName = normalize(stopName);
+    const targetStop = stopList.find(s => normalize(s.stop_name) === normalizedSearchName);
+
+    if (!targetStop) {
+        console.warn(`Target stop not found in schedule data: ${stopName} (normalized: ${normalizedSearchName})`);
+    }
 
     if (targetStop && targetStop.routes) {
         targetStop.routes.forEach((route: any) => {
