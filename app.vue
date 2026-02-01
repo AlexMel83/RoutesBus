@@ -4,10 +4,15 @@ import type { Stop } from '~/utils/mockData';
 
 const selectedStop = ref<Stop | null>(null);
 const isPanelOpen = ref(false);
+const selectedRoutes = ref<string[]>([]);
 
 const handleSelectStop = (stop: Stop) => {
   selectedStop.value = stop;
   isPanelOpen.value = true;
+};
+
+const handleRoutesUpdate = (routes: string[]) => {
+  selectedRoutes.value = routes;
 };
 
 const handleClosePanel = () => {
@@ -26,7 +31,11 @@ const handleClosePanel = () => {
 
     <!-- ClientOnly for Map to avoid SSR issues -->
     <ClientOnly>
-      <BusMap @select-stop="handleSelectStop" />
+      <BusMap 
+        :selected-stop="selectedStop"
+        :selected-routes="selectedRoutes"
+        @select-stop="handleSelectStop" 
+      />
       <template #placeholder>
         <div class="loading-map">
           Loading City Map...
@@ -37,7 +46,8 @@ const handleClosePanel = () => {
     <StopInfo 
       :stop="selectedStop" 
       :is-open="isPanelOpen" 
-      @close="handleClosePanel" 
+      @close="handleClosePanel"
+      @update:selected-routes="handleRoutesUpdate"
     />
   </div>
 </template>

@@ -118,7 +118,6 @@ const processedStopsMap = new Map<string, Stop>();
         }
     }
 
-    // Fallback to static COORDINATES if JSON coordinates are missing or invalid
     if (lat === 0 || lng === 0) {
         const coords = getCoords(s.stop_name);
         if (coords) {
@@ -135,15 +134,22 @@ const processedStopsMap = new Map<string, Stop>();
             lng: lng,
             description: `Stop in Starokostiantyniv`
         });
-    } else {
-        console.warn(`No coordinates found for stop: ${s.stop_name}`);
     }
 });
 
-export const ROUTES: Route[] = [];
 export const STOPS = Array.from(processedStopsMap.values());
 
-// 3. Dynamic Schedule Logic
+// 3. Import Routes from external file (user-editable)
+import routeLinesData from './routeLines.json';
+
+export const ROUTES: Route[] = (routeLinesData as any[]).map((r: any) => ({
+    id: r.id,
+    name: r.name,
+    color: (ROUTE_COLORS as any)[r.id] || ROUTE_COLORS['default'],
+    path: r.path as [number, number][]
+}));
+
+// 4. Dynamic Schedule Logic
 export function getRoutesForStop(stopName: string): string[] {
     const stopList = schedulesData as any[];
     const normalizedSearchName = normalize(stopName);

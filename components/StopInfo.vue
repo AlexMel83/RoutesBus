@@ -7,7 +7,7 @@ const props = defineProps<{
   isOpen: boolean;
 }>();
 
-const emit = defineEmits(['close']);
+const emit = defineEmits(['close', 'update:selected-routes']);
 
 // 1. Reactive State
 const selectedDateTime = ref('');
@@ -44,6 +44,10 @@ watch(() => props.stop, (newStop) => {
     resetToCurrent();
   }
 });
+
+watch(selectedRoutes, (newRoutes) => {
+  emit('update:selected-routes', newRoutes);
+}, { deep: true });
 
 // 2. Computed Data
 const rawArrivals = computed(() => {
@@ -298,9 +302,7 @@ const getRouteStyle = (rid: string) => {
     transition: all 0.2s;
 }
 
-.pill-checkbox input:checked + .pill-text {
-    /* Styles are handled by :style binding for dynamic colors */
-}
+
 
 .arrival-row {
   display: flex;

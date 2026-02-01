@@ -3,10 +3,15 @@ import { ref, onMounted } from 'vue';
 import 'leaflet/dist/leaflet.css';
 import { LMap, LTileLayer, LMarker, LPolyline, LPopup, LTooltip } from '@vue-leaflet/vue-leaflet';
 import L from 'leaflet';
-import { STOPS, ROUTES, type Stop } from '~/utils/mockData';
+import { STOPS, ROUTES, type Stop, getRoutesForStop } from '~/utils/mockData';
+
+const props = defineProps<{
+  selectedStop: Stop | null;
+  selectedRoutes: string[];
+}>();
 
 const zoom = ref(13);
-const center = ref([49.7556, 27.2208]); // Starokostiantyniv Center
+const center = ref<[number, number]>([49.7556, 27.2208]); // Starokostiantyniv Center
 const mapOptions = {
   zoomControl: false,
   attributionControl: false
@@ -28,10 +33,16 @@ const emit = defineEmits(['select-stop']);
 
 const onStopClick = (stop: Stop) => {
   emit('select-stop', stop);
-  // Optional: Center map on click
-  // center.value = [stop.lat, stop.lng]; 
 };
 
+const visibleRoutes = computed(() => {
+  if (!props.selectedStop) return [];
+  const activeRouteIds = getRoutesForStop(props.selectedStop.name);
+  // Filter by both: routes passing through the stop AND routes selected in filter
+  return ROUTES.filter(r => 
+    activeRouteIds.includes(r.id) && props.selectedRoutes.includes(r.id)
+  );
+});
 </script>
 
 <template>
@@ -51,16 +62,16 @@ const onStopClick = (stop: Stop) => {
         name="CartoDB Voyager"
       />
 
-      <!-- Routes (Polylines) -->
+      <!-- Routes (Polylines) - Show only routes passing through selected stop -->
       <LPolyline
-        v-for="route in ROUTES"
+        v-for="route in visibleRoutes"
         :key="route.id"
         :lat-lngs="route.path"
         :color="route.color"
-        :weight="5"
-        :opacity="0.8"
+        :weight="6"
+        :opacity="0.9"
       >
-        <LTooltip :sticky="true">{{ route.name }}</LTooltip>
+        <LTooltip :sticky="true">Маршрут №{{ route.id }}</LTooltip>
       </LPolyline>
 
       <!-- Stops (Markers) -->
@@ -68,7 +79,7 @@ const onStopClick = (stop: Stop) => {
         v-for="stop in STOPS"
         :key="stop.id"
         :lat-lng="[stop.lat, stop.lng]"
-        :icon="createIcon()"
+        :icon="(createIcon() as any)"
         @click="onStopClick(stop)"
       >
         <LTooltip>{{ stop.name }}</LTooltip>
