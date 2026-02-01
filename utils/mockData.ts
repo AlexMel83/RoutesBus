@@ -61,7 +61,7 @@ const COORDINATES: Record<string, { lat: number, lng: number }> = {
     'анастасія': { lat: 49.7600, lng: 27.2220 }
 };
 
-const ROUTE_COLORS: Record<string, string> = {
+export const ROUTE_COLORS: Record<string, string> = {
     '1': '#ef4444',
     '2': '#f97316',
     '3': '#eab308',
@@ -107,13 +107,32 @@ const processedStopsMap = new Map<string, Stop>();
 
 // Populate STOPS from schedulesData (the source of truth for arrivals)
 (schedulesData as any[]).forEach(s => {
-    const coords = getCoords(s.stop_name);
-    if (coords) {
+    let lat = 0;
+    let lng = 0;
+
+    if (s.coordinates) {
+        const parts = s.coordinates.split(',').map((p: string) => parseFloat(p.trim()));
+        if (parts.length === 2 && !isNaN(parts[0]) && !isNaN(parts[1])) {
+            lat = parts[0];
+            lng = parts[1];
+        }
+    }
+
+    // Fallback to static COORDINATES if JSON coordinates are missing or invalid
+    if (lat === 0 || lng === 0) {
+        const coords = getCoords(s.stop_name);
+        if (coords) {
+            lat = coords.lat;
+            lng = coords.lng;
+        }
+    }
+
+    if (lat !== 0 && lng !== 0) {
         processedStopsMap.set(s.stop_name, {
             id: s.stop_name,
             name: s.stop_name,
-            lat: coords.lat,
-            lng: coords.lng,
+            lat: lat,
+            lng: lng,
             description: `Stop in Starokostiantyniv`
         });
     } else {

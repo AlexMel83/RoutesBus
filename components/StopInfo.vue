@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref, watch, onMounted } from 'vue';
-import { type Stop, getArrivalsForStop, getRoutesForStop } from '~/utils/mockData';
+import { type Stop, getArrivalsForStop, getRoutesForStop, ROUTE_COLORS } from '~/utils/mockData';
 
 const props = defineProps<{
   stop: Stop | null;
@@ -88,6 +88,16 @@ const highlightedArrivalIndices = computed(() => {
     if (afterIdx !== -1) result.push(afterIdx);
     return result;
 });
+
+const getRouteStyle = (rid: string) => {
+    const isSelected = selectedRoutes.value.includes(rid);
+    const color = (ROUTE_COLORS as any)[rid] || ROUTE_COLORS['default'];
+    return {
+        backgroundColor: isSelected ? color : 'rgba(255, 255, 255, 0.07)',
+        borderColor: isSelected ? color : 'rgba(255, 255, 255, 0.15)',
+        color: isSelected ? '#ffffff' : 'rgba(255, 255, 255, 0.7)'
+    };
+};
 </script>
 
 <template>
@@ -120,7 +130,7 @@ const highlightedArrivalIndices = computed(() => {
                 <div class="route-checkboxes">
                     <label v-for="rid in availableRoutes" :key="rid" class="pill-checkbox">
                         <input type="checkbox" :value="rid" v-model="selectedRoutes" />
-                        <span class="pill-text">{{ rid }}</span>
+                        <span class="pill-text" :style="getRouteStyle(rid)">{{ rid }}</span>
                     </label>
                 </div>
             </div>
@@ -289,9 +299,7 @@ const highlightedArrivalIndices = computed(() => {
 }
 
 .pill-checkbox input:checked + .pill-text {
-    background: var(--primary);
-    color: #ffffff;
-    border-color: var(--primary);
+    /* Styles are handled by :style binding for dynamic colors */
 }
 
 .arrival-row {
