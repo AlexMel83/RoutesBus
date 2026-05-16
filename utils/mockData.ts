@@ -1,4 +1,3 @@
-import routesJson from './routesData.json';
 import schedulesData from './routesData_obrazec.json';
 
 // Types
@@ -140,7 +139,7 @@ const processedStopsMap = new Map<string, Stop>();
 export const STOPS = Array.from(processedStopsMap.values());
 
 // 3. Import Routes from external file (user-editable)
-import routeLinesData from './routeLines.json';
+import routeLinesData from './routeLines';
 
 export const ROUTES: Route[] = (routeLinesData as any[]).map((r: any) => ({
     id: r.id,
