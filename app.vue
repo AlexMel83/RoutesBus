@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import type { Stop } from '~/utils/mockData';
+import type { Stop } from '~/composables/useRoutesData';
 
 const selectedStop = ref<Stop | null>(null);
 const isPanelOpen = ref(false);

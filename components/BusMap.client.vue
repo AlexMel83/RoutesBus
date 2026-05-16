@@ -3,7 +3,8 @@ import { ref, onMounted } from 'vue';
 import 'leaflet/dist/leaflet.css';
 import { LMap, LTileLayer, LMarker, LPolyline, LPopup, LTooltip } from '@vue-leaflet/vue-leaflet';
 import L from 'leaflet';
-import { STOPS, ROUTES, type Stop, getRoutesForStop } from '~/utils/mockData';
+import { type Stop } from '~/composables/useRoutesData';
+const { STOPS, ROUTES, getRoutesForStop } = useRoutesData();
 
 const props = defineProps<{
   selectedStop: Stop | null;
@@ -39,7 +40,7 @@ const visibleRoutes = computed(() => {
   if (!props.selectedStop) return [];
   const activeRouteIds = getRoutesForStop(props.selectedStop.name);
   // Filter by both: routes passing through the stop AND routes selected in filter
-  return ROUTES.filter(r => 
+  return ROUTES.value.filter(r => 
     activeRouteIds.includes(r.id) && props.selectedRoutes.includes(r.id)
   );
 });

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, watch, onMounted } from 'vue';
-import { type Stop, getArrivalsForStop, getRoutesForStop, ROUTE_COLORS } from '~/utils/mockData';
+import { type Stop } from '~/composables/useRoutesData';
+const { getArrivalsForStop, getRoutesForStop, ROUTE_COLORS, pending } = useRoutesData();
 
 const props = defineProps<{
   stop: Stop | null;
@@ -13,7 +14,7 @@ const emit = defineEmits(['close', 'update:selected-routes']);
 const selectedDateTime = ref('');
 const availableRoutes = ref<string[]>([]);
 const selectedRoutes = ref<string[]>([]);
-const loading = ref(false);
+const loading = pending;
 
 const uaDays = ['Нд', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'];
 const dayName = computed(() => {
